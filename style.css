@@ -1,0 +1,107 @@
+/* Navbar styles */
+.navbar {
+    padding: 1rem 0;
+}
+
+/* Jumbotron styles */
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 8rem 2rem 6rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+
+.jumbotron p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.jumbotron .btn {
+    transition: all 0.3s ease;
+}
+
+.jumbotron .btn:hover {
+    background-color: #0056b3;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Grid styles */
+.grid-box {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.grid-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Card styles */
+.card {
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Form styles */
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
+
+/* Footer styles */
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 3rem 0;
+    margin-top: 5rem;
+}
+
+.footer h5 {
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+.footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+/* Sweetalert custom styles */
+.swal2-confirm {
+    background-color: #0d6efd !important;
+}
+
+.swal2-cancel {
+    background-color: #dc3545 !important;
+}
